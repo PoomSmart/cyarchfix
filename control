@@ -2,7 +2,7 @@ Package: com.ps.cyarchfix
 Name: cyarchfix
 Version: 1.0.0
 Architecture: iphoneos-arm
-Description: Hide iphoneos-arm64 packages from Cydia.
+Description: Hide iphoneos-arm64(e) packages from Cydia.
 Maintainer: PoomSmart
 Author: PoomSmart
 Section: Tweaks

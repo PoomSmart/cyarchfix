@@ -7,7 +7,8 @@
 %hook Package
 
 - (BOOL)unfiltered {
-	return [[self architecture] isEqualToString:@"iphoneos-arm64"] ? NO : %orig;
+    NSString *arch = [self architecture];
+    return [arch isEqualToString:@"iphoneos-arm64"] || [arch isEqualToString:@"iphoneos-arm64e"] ? NO : %orig;
 }
 
 %end
