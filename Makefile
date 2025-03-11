@@ -1,6 +1,6 @@
-TARGET := iphone:clang:latest:6.0
-ARCHS = armv7 arm64
-PACKAGE_VERSION = 1.0.1
+TARGET := iphone:clang:14.5:6.0
+ARCHS = armv7 arm64 arm64e
+PACKAGE_VERSION = 1.0.2
 INSTALL_TARGET_PROCESSES = Cydia
 
 include $(THEOS)/makefiles/common.mk

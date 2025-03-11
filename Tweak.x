@@ -8,7 +8,7 @@
 
 - (BOOL)unfiltered {
     NSString *arch = [self architecture];
-    return [arch isEqualToString:@"iphoneos-arm64"] || [arch isEqualToString:@"iphoneos-arm64e"] ? NO : %orig;
+    return [arch isEqualToString:@"iphoneos-arm64"] || [arch isEqualToString:@"iphoneos-arm64e"] || [arch isEqualToString:@"appletvos-arm64"] ? NO : %orig;
 }
 
 %end
